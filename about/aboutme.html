@@ -1,4 +1,4 @@
-<html> 
+<!--<html> 
 <head>  
 <title>aboutme</title>
 </head>
@@ -10,4 +10,18 @@
 <a href="../index.html"> Direct link</a>
 </div>
 </body>
-</html>
+</html>-->
+
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+{% endblock %}
+{% block content %}
+    <h1>Index</h1>
+<div>
+<a href="C:/WebServers/home/myproject/index.html"> Absolute link </a>
+</div>
+<div>
+<a href="../index.html"> Direct link</a>
+</div>
+{% endblock %}
