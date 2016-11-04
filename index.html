@@ -14,17 +14,6 @@
 
 {% extends "base.html" %}
 {% block title %}Index{% endblock %}
-{% block head %}
-    <style type="text/css">
-        .important { color: #336699; }
-    </style>
-{% endblock %}
-{% block content %}
-    <h1>Index</h1>
-<div>
-<a href="C:/WebServers/home/myproject/about/abotme.html"> Absolute link </a>
-</div>
-<div>
-<a href="about/aboutme.html"> Direct link</a>
-</div>
+{% block links %}
+	<p>{{link}}</p>
 {% endblock %}
